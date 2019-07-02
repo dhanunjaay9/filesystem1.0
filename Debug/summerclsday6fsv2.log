@@ -1,0 +1,33 @@
+﻿Build started 31-05-2019 15:42:12.
+     1>Project "C:\Users\CDhan\OneDrive\Documents\Visual Studio 2013\Projects\summerclsday6fsv2\summerclsday6fsv2\summerclsday6fsv2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt copyfromdisk.cpp copyttodisk.cpp debug.cpp delete.cpp diskio.cpp format.cpp
+         format.cpp
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\format.cpp(14): warning C4101: 'inputfile' : unreferenced local variable
+         diskio.cpp
+         delete.cpp
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\delete.cpp(12): warning C4101: 'inputfile' : unreferenced local variable
+         debug.cpp
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\debug.cpp(9): warning C4101: 'inputfile' : unreferenced local variable
+         copyttodisk.cpp
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\copyttodisk.cpp(74): warning C4101: 'isread' : unreferenced local variable
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\copyttodisk.cpp(74): warning C4101: 'iswrite' : unreferenced local variable
+         copyfromdisk.cpp
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\copyfromdisk.cpp(13): warning C4101: 'isread' : unreferenced local variable
+     1>c:\users\cdhan\onedrive\documents\visual studio 2013\projects\summerclsday6fsv2\summerclsday6fsv2\copyfromdisk.cpp(13): warning C4101: 'iswrite' : unreferenced local variable
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\CDhan\OneDrive\Documents\Visual Studio 2013\Projects\summerclsday6fsv2\Debug\summerclsday6fsv2.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\CDhan\OneDrive\Documents\Visual Studio 2013\Projects\summerclsday6fsv2\Debug\summerclsday6fsv2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\CDhan\OneDrive\Documents\Visual Studio 2013\Projects\summerclsday6fsv2\Debug\summerclsday6fsv2.lib" /MACHINE:X86 Debug\command_parser.obj
+         Debug\copyfromdisk.obj
+         Debug\copyttodisk.obj
+         Debug\debug.obj
+         Debug\delete.obj
+         Debug\diskio.obj
+         Debug\format.obj
+         Debug\main.obj
+         summerclsday6fsv2.vcxproj -> C:\Users\CDhan\OneDrive\Documents\Visual Studio 2013\Projects\summerclsday6fsv2\Debug\summerclsday6fsv2.exe
+     1>Done Building Project "C:\Users\CDhan\OneDrive\Documents\Visual Studio 2013\Projects\summerclsday6fsv2\summerclsday6fsv2\summerclsday6fsv2.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.19
